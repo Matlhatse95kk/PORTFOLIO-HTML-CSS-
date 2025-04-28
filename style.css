@@ -28,9 +28,17 @@ body {
   
   /* Hero Section */
   section.text-center.bg-light {
-    background: url('../pexels-khadijah-27993239.jpg') no-repeat center center/cover;
+    background: url('../pexels-mibernaa-31777032(1).jpg') no-repeat center center/cover;
     color: #fff;
     padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .img-fluid rounded-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
   }
   
   section.text-center.bg-light .btn-primary {
