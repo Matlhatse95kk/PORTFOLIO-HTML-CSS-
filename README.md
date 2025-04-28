@@ -26,7 +26,7 @@ To view the project repository:
 
 ## Group Members
 
-- Member 1
-- Member 2
+- Member 1: Mmakopa Matlhatse Kekana (Matlhatse95kk@gmail.com) - Role: Created `index.html`
+- Member 2: [Add Member Name and Role Here]
 
 ## Folder Structure
