@@ -1,0 +1,94 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #4B2E2E; /* Dark coffee color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-left: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700 !important; /* Golden hover */
+  }
+  
+  /* Hero Section */
+  section.text-center.bg-light {
+    background: url('../pexels-khadijah-27993239.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  section.text-center.bg-light .btn-primary {
+    background-color: #6F4E37;
+    border: none;
+  }
+  
+  section.text-center.bg-light .btn-primary:hover {
+    background-color: #5a3e2b;
+  }
+  
+  /* About Section */
+  #about img {
+    border-radius: 15px;
+  }
+  
+  #about h2 {
+    color: #6F4E37;
+  }
+  
+  /* Menu Section */
+  #menu h2 {
+    color: #6F4E37;
+  }
+  
+  #menu .row > div {
+    margin-bottom: 30px;
+  }
+  
+  #menu h4 {
+    color: #4B2E2E;
+  }
+  
+  /* Contact Section */
+  #contact h2 {
+    color: #6F4E37;
+  }
+  
+  #contact .btn-outline-dark {
+    border-color: #6F4E37;
+    color: #6F4E37;
+  }
+  
+  #contact .btn-outline-dark:hover {
+    background-color: #6F4E37;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4B2E2E;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Text Centering */
+  @media (max-width: 768px) {
+    #about .row {
+      text-align: center;
+    }
+  }
+  
